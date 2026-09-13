@@ -1,0 +1,3 @@
+Buy-and-Hold delivered the higher annualized return (23.27% vs. 14.11%), but it did so with substantially higher volatility (15.02% vs. 8.19%). The Volatility-Aware Strategy produced a higher Sharpe ratio (1.72 vs. 1.55), indicating better risk-adjusted performance despite its lower raw return.
+
+The Volatility-Aware Strategy also experienced a much smaller maximum drawdown (-7.55% vs. -18.76%), suggesting a smoother ride and tighter risk control. Overall, the Volatility-Aware Strategy is better suited for risk control, while Buy-and-Hold maximized returns in this backtest.
