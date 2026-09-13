@@ -80,7 +80,8 @@ def calculate_metrics(spy: pd.DataFrame) -> pd.DataFrame:
                 sharpe_ratio(spy["Buy_Hold_Return"]),
                 max_drawdown(spy["Buy_Hold_Cumulative"]),
             ],
-            "Volatility-Aware Strategy": [+                annualized_return(spy["Strategy_Return"]),
+            "Volatility-Aware Strategy": [
+                annualized_return(spy["Strategy_Return"]),
                 annualized_volatility(spy["Strategy_Return"]),
                 sharpe_ratio(spy["Strategy_Return"]),
                 max_drawdown(spy["Strategy_Cumulative"]),
